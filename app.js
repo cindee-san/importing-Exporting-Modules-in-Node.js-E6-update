@@ -24,7 +24,7 @@ app.use(routes)
 * 404 and Global Error Handlers
 */
 import nonExistError from './errorHandlers.js'
-import globalError from './errorHandlers.js';
+import {globalError} from './errorHandlers.js';
 
 // Error handler for handling non-existent routes
 app.use(nonExistError);
